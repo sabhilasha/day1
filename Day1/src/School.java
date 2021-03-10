@@ -16,11 +16,11 @@ public class School {
 		
 		void practice() {
 		for(int i=0 ;i<10;i++) {
-			Teacher teacher = new Teacher("Shyam"+i);
+			Teacher teach = new Teacher("Shyam"+i);
 		}
 			int i=0;
 			while(i<10) {
-				Teacher teacher = new Teacher("Shyam"+i);
+				Teacher teach = new Teacher("Shyam"+i);
 				i++;
 				
 			}
