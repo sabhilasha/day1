@@ -1,5 +1,4 @@
 
 public interface IAccount {
-	public deposit() {
-
+	public void deposit();
 }
