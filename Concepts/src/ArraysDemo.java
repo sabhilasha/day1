@@ -10,12 +10,15 @@ public class ArraysDemo {
 			System.out.println(numbers[i]);
 		}
 		boolean[] booleans = {true, false};
+		for(int i=0;i<booleans.length;i++) {//this can be done in this way as well below way
+			System.out.println(booleans[i]);
+		}
 		for(boolean value : booleans) {//for Each
 			System.out.println(value);
 		}
-		String[] names = new String[10];
-		for (String name : names) {
-			name = new String("Ram");
+		String[] names = new String[10];// made array
+		for (String name : names) {// for each name in names array 
+			name = new String();// name is equal to new string
 			name = "Ram";
 			System.out.println(name);
 		}

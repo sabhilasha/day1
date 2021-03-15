@@ -1,7 +1,7 @@
 
 public class RecurringFDAccount implements IAccount{
 	
-	@override
+	@Override
 	public void deposit() {
 		System.out.println("in recurringFD");
 		

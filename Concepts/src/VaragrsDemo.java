@@ -16,7 +16,7 @@ public class VaragrsDemo {
 	
 
 }
-class Book{
+/*/class Book{
 	private String genre;
 	private Author[] authors;
 	
@@ -27,4 +27,4 @@ class Book{
 		String name;
 		String email;
 	}
-}
+}/*/

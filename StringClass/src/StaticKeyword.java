@@ -8,7 +8,7 @@ public class StaticKeyword {
 		System.out.println(s1.getCount());
 		System.out.println(s2.getCount());
 		Student.study();
-		//s1.study();//avoid static should be calle with class name
+		//s1.study();//avoid static should be called with class name
 		
 	}
 

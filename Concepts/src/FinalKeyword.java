@@ -8,7 +8,7 @@ public class FinalKeyword {
 }
 class Parent{
 	final String name = "Abhilasha";
-	final void m1() {
+	void m1() {
 		System.out.println("parent");
 	}
 	void m2() {
@@ -16,7 +16,7 @@ class Parent{
 	}
 }
 class Child extends Parent{
-	void m1() {//overrides
+	void m1() {//override cannot take place as m1 method of parent is final
 		System.out.println("child");
 	}
 	@Override

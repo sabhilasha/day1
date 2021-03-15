@@ -1,7 +1,7 @@
 
 public class InnerClassDemo {
 	public static void main(String[] args) {
-		Account[] accounts = new Account[10];
+		//Account[] accounts = new Account[10];
 		
 }
 class Account{
@@ -25,6 +25,6 @@ class Account{
 		this.number = number;
 	}
 	private class Address{
-		private String streetName;
+		//private String streetName;
 	}
 }}

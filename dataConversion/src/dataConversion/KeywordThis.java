@@ -6,6 +6,7 @@ public class KeywordThis {
 		s1.setGender(GENDER.FEMALE);
 		System.out.println(s1.getName());
 		System.out.println(s1.getGender());
+		s1.eat();
 		
 	}
 

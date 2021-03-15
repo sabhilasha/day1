@@ -5,6 +5,6 @@ public class FDAccount implements IAccount {
 		System.out.println("in FD");
 		
 	}
-	private void Calculate() {
-
-}
+	/*/private void Calculate() {
+		}/*/
+	}

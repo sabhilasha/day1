@@ -1,9 +1,9 @@
 
 public class StringDemo {
 	public static void main(String[] args) {
-	  //  usingStringPool();
-	//	withoutStringPool();
-	//	usingStringBuilder();
+	    usingStringPool();
+		withoutStringPool();
+		usingStringBuilder();
 		dataManipulation();
 	
 	}
@@ -11,6 +11,7 @@ public class StringDemo {
 		String s1 = "IBM";
 		System.out.println(s1);
 		s1=s1.concat(", banglore");
+		
 		System.out.println(s1);
 		
 	}

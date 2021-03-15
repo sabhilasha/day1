@@ -6,8 +6,8 @@ public class Bank {
 		savingsAccounts[1]= new FDAccount();
 		savingsAccounts[2]= new RecurringFDAccount();
 		
-		for(IAccount IAccount:savingsAccounts) {
-			IAccount.deposit();
+		for(IAccount value:savingsAccounts) {//this value is basically the thrre types of acc here .it can be value or i or a or b any thing
+			value.deposit();
 			
 		}
 	}

@@ -6,11 +6,11 @@ public class Application {
 	public static void main(String[] args) {
 		//	B b = new B();
 	    //A b = new A();
-	    //	B b = new A();
-		A b = new B();
-		((B)b).m2();
+	    A b = new B();
+	//	B b = new B();
+		//((B)b).m2();
 		System.out.println(b.age);
-		b.m1();
+		//b.m1();
 	}
 
 }

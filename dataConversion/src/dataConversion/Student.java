@@ -1,6 +1,6 @@
 package dataConversion;
 class Student extends Human{
-	public Student(String name) {
+	public Student(String name) {//constructor
 		this.name=name;
 	}
 	void eat() {//overrides

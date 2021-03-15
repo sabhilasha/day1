@@ -14,9 +14,9 @@ public class School {
 		}
 
 		
-		void practice() {
-		for(int i=0 ;i<10;i++) {
-			Teacher teach = new Teacher("Shyam"+i);
+		/*/{void practice() {
+			for(int i=0 ;i<10;i++) {
+				Teacher teach = new Teacher("Shyam"+i);
 		}
 			int i=0;
 			while(i<10) {
@@ -25,7 +25,7 @@ public class School {
 				
 			}
 			
-		}
+		}}/*/
 		
 		void studentDiscussion(){
 			System.out.println("Hello");
