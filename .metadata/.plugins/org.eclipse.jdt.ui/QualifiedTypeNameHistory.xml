@@ -7,4 +7,6 @@
 <fullyQualifiedTypeName name="com.ibm.b.Book"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="Developer"/>
 </qualifiedTypeNameHistroy>

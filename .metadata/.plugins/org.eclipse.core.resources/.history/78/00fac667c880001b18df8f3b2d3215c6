@@ -1,5 +1,0 @@
-package test;
-
-public class A {
-	protected int age=0;
-}
